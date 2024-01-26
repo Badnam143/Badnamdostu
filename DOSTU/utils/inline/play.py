@@ -71,7 +71,7 @@ def stream_markup_timer(_, chat_id, played, dur):
                 text="𝙶𝚁𝙾𝚄𝙿", url=f"https://t.me/tcz_group"
             ),
             InlineKeyboardButton(
-                text="𝚂𝚄𝙿𝙿𝙾𝚁𝚃", url=config.SUPPORT_CHANNEL
+                text="𝚂𝚄𝙿𝙿𝙾𝚁𝚃", url=f"https://t.me/tcz_group"
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -93,7 +93,7 @@ def stream_markup(_, chat_id):
                 text="𝙶𝚁𝙾𝚄𝙿", url=f"https://t.me/tcz_group"
             ),
             InlineKeyboardButton(
-                text="𝚂𝚄𝙿𝙿𝙾𝚁𝚃", url=config.SUPPORT_CHANNEL
+                text="𝚂𝚄𝙿𝙿𝙾𝚁𝚃", url=f"https://t.me/tcz_group"
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -118,7 +118,7 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
                 text="𝙶𝚁𝙾𝚄𝙿", url=f"https://t.me/tcz_group"
             ),
             InlineKeyboardButton(
-                text="𝚂𝚄𝙿𝙿𝙾𝚁𝚃", url=config.SUPPORT_CHANNEL
+                text="𝚂𝚄𝙿𝙿𝙾𝚁𝚃", url=f"https://t.me/tcz_group"
             )
         ],
         [
