@@ -38,8 +38,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/tcz_group")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/tcz_group")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/badnam_ji")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/invalid_0_0")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -77,15 +77,15 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/89adcb88764abb69cc104.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/d8bb1413c9ebb51875f48.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/89adcb88764abb69cc104.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/d8bb1413c9ebb51875f48.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/89adcb88764abb69cc104.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/d8bb1413c9ebb51875f48.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/4ce070797a15d60c658d9.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/89adcb88764abb69cc104.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/89adcb88764abb69cc104.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/d8bb1413c9ebb51875f48.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/d8bb1413c9ebb51875f48.jpg"
 STREAM_IMG_URL = "https://telegra.ph/file/35e597d603805ff589220.jpg"
 SOUNCLOUD_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
 YOUTUBE_IMG_URL = "https://telegra.ph/file/35e597d603805ff589220.jpg"
